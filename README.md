@@ -1,30 +1,64 @@
-# EDEM Climate DAO
+# EDEM Climate DAO - MRV Storage and DAO Smart Contract
 
-This repository includes:
-- A sample MRV data upload module.
-- A smart contract for Climate DAO governance and MRV report tracking.
+## 🌍 What is EDEM Climate DAO?
 
-## How it works
-1. MRV reports are uploaded and stored on IPFS/Filecoin.
-2. The DAO smart contract records and verifies reports with CIDs.
+EDEM Climate DAO is a decentralized AI-powered platform designed to **monitor, report, and verify (MRV)** environmental data, facilitate **climate governance**, and enable **tokenization of ecological assets**.
 
-This is an MVP demonstration for grant purposes.
-4. Place your MRV report JSON file in `./data/mrv_report.json`
-5. Run `node mrv_upload.js`
+The system integrates **Filecoin/IPFS** for secure, transparent, and immutable data storage, ensuring **trust** and **transparency** in climate data management.  
+EDEM Climate DAO empowers governments, NGOs, businesses, and individuals to participate in **decentralized environmental governance** and **ReFi (Regenerative Finance)** initiatives.
 
-## Expected Output
-- A CID (Content Identifier) will be returned and logged.
+---
 
-## ClimateDAO Smart Contract Deployment
+## 🔥 Why This Matters
 
-### Prerequisites
-- MetaMask wallet
-- Remix IDE (https://remix.ethereum.org)
+In the era of climate change, trust in data is critical.  
+🌱 **EDEM Climate DAO** ensures verifiable climate data for carbon markets, biodiversity protection, and regenerative finance (ReFi).  
+By leveraging Filecoin and IPFS, we enable decentralized storage and governance that is **transparent**, **tamper-proof**, and **community-owned**.
 
-### Steps:
-1. Copy the ClimateDAO Solidity code into Remix.
-2. Compile using Solidity ^0.8.0.
-3. Deploy using Injected Web3 (connect MetaMask to Filecoin Calibration Testnet or FVM testnet).
-4. Once deployed, call `submitReport` with a CID from IPFS.
-5. Verify reports via `getReport(index)` and check `totalReports()`.
- 
+This project is aligned with **Filecoin Green’s mission** to create climate-positive solutions in Web3.
+
+---
+
+## ✅ Key Features
+
+- **MRV Data Storage on Filecoin/IPFS**
+- **Climate DAO Governance Protocol** on FVM
+- **Tokenization of Climate Assets** (carbon credits, biodiversity)
+- **AI-driven Analytics** (future extension)
+
+---
+
+## 🚀 Roadmap (2025–2026)
+
+| Milestone                | Deliverable                                    | Timeline       |
+|--------------------------|-------------------------------------------------|----------------|
+| **Q2 2025**              | PoC Release → DAO + IPFS Storage (Calibration Testnet) | Apr–Jun 2025 |
+| **Q3 2025**              | Launch on Filecoin Mainnet + Tokenization Beta | Jul–Sep 2025  |
+| **Q4 2025**              | DAO Governance + ReFi Ecosystem Expansion      | Oct–Dec 2025  |
+| **2026**                 | AI MRV Engine + Global Onboarding              | Full Year     |
+
+/edem-climate-dao
+├── contracts
+│    └── ClimateDAO.sol
+├── scripts
+│    └── mrv_upload.js
+├── data
+│    └── mrv_report.json
+├── README.md
+└── LICENSE
+
+## 📦 Repository Structure
+---
+
+## ⚙️ How To Run (MVP)
+... [инструкция как есть, оставляем] ...
+
+---
+
+## 🤝 Contributing
+... [оставляем как есть] ...
+
+---
+
+## 📄 License
+Dual-licensed under MIT and Apache 2.0.
